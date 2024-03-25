@@ -1,16 +1,23 @@
-# Salesforce DX Project: Next Steps
+# GIT for Salesforce Fundamentals - Luca Bobbio
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+Este repositório foi criado no intuito de realizar o exercício solicitado no treinamento [Git for Salesforce Fundamentals March 2023 (Portuguesse)](https://university.globant.com/group/5766) do Globant University.
 
-## How Do You Plan to Deploy Your Changes?
+## Exercício
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+- Crie um projeto Salesforce usando o Visual Studio CodeConecte o VSCode com uma organização developer ou playground
+- Edite o arquivo package.xml e adicione os metadados para as list views e fluxos (flows) à lista
+- Recupere os metadados do projeto
+- Inicialize um repositório local
+- Conecte esse novo repositório a um repositório remoto
+- Adicione o projeto aos repositórios local e remoto
+- Crie um novo branch (dev)
+- Edite uma list view e um flow (pode ser qualquer um)
+- Edite o arquivo package.xml e recupere apenas list views e flows
+- Recupere os metadados
+- Adicione as mudanças dos metadados ao repositório local
+- Envie as mudanças dos metadados para o repositório remotoCrie um Pull Request do branch dev para o branch main
 
-## Configure Your Salesforce DX Project
-
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
+## Salesforce DX
 
 - [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
 - [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
