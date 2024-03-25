@@ -4,7 +4,7 @@ Este repositório foi criado no intuito de realizar o exercício solicitado no t
 
 ## Exercício
 
-- Crie um projeto Salesforce usando o Visual Studio CodeConecte o VSCode com uma organização developer ou playground
+- Crie um projeto Salesforce usando o Visual Studio Code e conecte o VSCode com uma organização developer ou playground
 - Edite o arquivo package.xml e adicione os metadados para as list views e fluxos (flows) à lista
 - Recupere os metadados do projeto
 - Inicialize um repositório local
