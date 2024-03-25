@@ -15,7 +15,7 @@ Este repositório foi criado no intuito de realizar o exercício solicitado no t
 - Edite o arquivo package.xml e recupere apenas list views e flows
 - Recupere os metadados
 - Adicione as mudanças dos metadados ao repositório local
-- Envie as mudanças dos metadados para o repositório remotoCrie um Pull Request do branch dev para o branch main
+- Envie as mudanças dos metadados para o repositório remoto e crie um Pull Request do branch dev para o branch main
 
 ## Salesforce DX
 
