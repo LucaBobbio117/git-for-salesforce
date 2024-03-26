@@ -36,8 +36,8 @@
     <decisions>
         <name>Does_Contact_Exist</name>
         <label>Does Contact Exist</label>
-        <locationX>365</locationX>
-        <locationY>450</locationY>
+        <locationX>367</locationX>
+        <locationY>404</locationY>
         <defaultConnector>
             <targetReference>Assign_Stage_2</targetReference>
         </defaultConnector>
@@ -58,6 +58,7 @@
             <label>Contact Not Found</label>
         </rules>
     </decisions>
+    <description>Screen flow for the creation of cases records</description>
     <dynamicChoiceSets>
         <name>Case_Origin_Picklist</name>
         <dataType>Picklist</dataType>
@@ -297,6 +298,7 @@
             <isRequired>true</isRequired>
             <storeOutputAutomatically>true</storeOutputAutomatically>
         </fields>
+        <helpText>&lt;p&gt;Scree for new created case&lt;/p&gt;</helpText>
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
     </screens>
@@ -412,6 +414,7 @@
             <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
         </fields>
+        <helpText>&lt;p&gt;Confirm Customer Infor screen for Create Case flow&lt;/p&gt;</helpText>
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
     </screens>
@@ -490,7 +493,7 @@
     </screens>
     <screens>
         <name>Contact_Error_Screen</name>
-        <label>Create a Case</label>
+        <label>Create Case</label>
         <locationX>581</locationX>
         <locationY>198</locationY>
         <allowBack>true</allowBack>
@@ -509,7 +512,7 @@
             <fieldText>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(62, 62, 60);&quot;&gt;Verify the contact information or click Next to continue without associating a contact with your case.&lt;/span&gt;&lt;/p&gt;</fieldText>
             <fieldType>DisplayText</fieldType>
         </fields>
-        <helpText>&lt;p&gt;Error screen&lt;/p&gt;</helpText>
+        <helpText>&lt;p&gt;Error screen for create case flow&lt;/p&gt;</helpText>
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
     </screens>
